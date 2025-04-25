@@ -39,8 +39,6 @@ Guarda ese conteo en una nueva variable llamada categorias_t1.
 
 # CALIFICACIONES PROMEDIO DE LA TIENDA
 # Calcular el promedio de calificaciones
-Selecciona la columna llamada "Calificación" dentro del DataFrame tienda2.
-Esta columna debería contener números (por ejemplo, del 1 al 5, o del 0 al 10).
-Selecciona la columna llamada "Calificación" dentro del DataFrame tienda2.
-Esta columna debería contener números (por ejemplo, del 1 al 5, o del 0 al 10).
+promedio_t1 = tienda1['Calificación'].mean() 
+accede a la columna 'Calificación' del DataFrame tienda1, calcula el promediode los valores numericos en esa columna usando  .mean(), guarda el resultado en la variable promedio_t1 
 
